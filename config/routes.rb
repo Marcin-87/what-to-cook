@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   get "recipes", to: "recipes#index"
-  get "recipe", to: "recipes#show"
+  get "recipes/:id", to: "recipes#show"
 end
