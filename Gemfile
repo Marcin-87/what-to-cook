@@ -20,6 +20,9 @@ gem 'turbolinks', '~> 5'
 # SIMPLE FORM
 gem "simple_form", github: "heartcombo/simple_form"
 
+# FONT AWESOME
+gem "font-awesome-sass", "~> 6.1"
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
