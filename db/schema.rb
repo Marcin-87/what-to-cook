@@ -10,10 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2023_02_24_121828) do
-=======
-ActiveRecord::Schema.define(version: 2023_02_22_152026) do
 
   create_table "ingredients", force: :cascade do |t|
     t.string "name"
@@ -30,7 +27,7 @@ ActiveRecord::Schema.define(version: 2023_02_22_152026) do
     t.index ["ingredient_id"], name: "index_recipe_ingredients_on_ingredient_id"
     t.index ["recipe_id"], name: "index_recipe_ingredients_on_recipe_id"
   end
->>>>>>> d66487e3e096accf7652f4df69215f551b4dfbe2
+
 
   create_table "recipes", force: :cascade do |t|
     t.string "name"
